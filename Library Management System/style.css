@@ -1,0 +1,84 @@
+			#body ul {
+				float:right;
+			}
+			#body li {
+				display:inline;
+				border-radius: 30px;
+				background: Black;
+				padding: 15px; 
+			}
+			#body a {
+				text-decoration:none; //defult is underline border
+				font-weight:bolder;
+				font-size:x-large;
+				color:white;
+			}
+			#body li:hover {
+				background:red;
+			}
+			#body {
+				width:100%;
+			}
+			#header-1-1 {
+				height:14%;
+				float:left;
+				width:10%;
+			}
+			#header-1-2 {
+				height:14%;
+				float:right;
+				width:90%;
+			}
+			input,select{
+				font-size:14pt;
+				height:30px;
+			}
+			h1,h4,h3,p {
+				color:red;
+			}
+			th{
+				color:Peru  ;
+			}
+			.text-block {
+				position: absolute;
+				top: 33%;
+				left:25%;
+				background-color: black;
+				color: white;
+				padding-left: 100px;
+				padding-right: 100px;
+				font-size:x-large;
+			}
+			#table{
+				color:blue;
+				width:100%;
+			}
+			#center{
+				background-color:orange;
+			}
+			.button {
+				display: inline-block;
+				padding: 5px 5px;
+				font-size: 20px;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+				background-color: #4CAF50;
+				border: none;
+				border-radius: 10px;
+				box-shadow: 0 9px #999;
+			}
+			.button:hover {
+				background-color: #3e8e41
+			}
+			.button:active {
+				background-color: #3e8e41;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+			}
+			#table-scroll {
+				height:200px;
+				overflow:auto;  
+			}
